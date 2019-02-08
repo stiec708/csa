@@ -32,16 +32,17 @@ body {
     margin: auto;
     margin-top: 5vh;
     display: table;
+    overflow: hidden;
     
 }
 .visual{
     height: 60vh;
-    max-width: 40vw;
     min-width: 60px;
-    display: inline-block;
     margin: auto;
     padding: 5vh;
     float: left;
+    display: table-cell;
+    overflow: hidden;
 }
 img {
     width: auto;
@@ -54,90 +55,12 @@ video {
     max-width: 100%;
 }
 .text{
-    height: 60vh;
-    max-width: 52vw;
+    height: auto;
+    width: auto;
     padding: 5vh;
-    padding-left: 0;
     margin: auto;
     position: relative;
     float: left;
-    display:table-row;
-
-}
-.text1{
-    height: 60vh;
-    max-width: 42.25vw;
-    padding: 5vh;
-    padding-right: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text2{
-    height: 60vh;
-    max-width: 42.25vw;
-    padding: 5vh;
-    padding-left: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text3{
-    height: 60vh;
-    max-width: 62.5vw;
-    padding: 5vh;
-    padding-right: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text4{
-    height: 60vh;
-    max-width: 42.25vw;
-    padding: 5vh;
-    padding-left: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text5{
-    height: 60vh;
-    max-width: 66.25vw;
-    padding: 5vh;
-    padding-right: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text6{
-    height: 60vh;
-    max-width: 42.25vw;
-    padding: 5vh;
-    padding-left: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
-}
-.text7{
-    height: 60vh;
-    max-width: 68.25vw;
-    padding: 5vh;
-    padding-right: 0;
-    margin: auto;
-    position: relative;
-    float: left;
-    display:table-row;
-
+    display: table-cell;
+    overflow: hidden;
 }
